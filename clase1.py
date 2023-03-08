@@ -1,5 +1,5 @@
 
- # son 4 tipos de variables
+# son 4 tipos de variables
 # Cadena
 
 nombre  =  "Cristóbal"
@@ -40,9 +40,9 @@ imprimir ( uno  ! =  dos )
 # Vamos a hacer un interruptor de luz inteligente que apague las luces si es de dia y las encienda si es de noche
 imprimir ( "------------------------------" )
 es_dia  =  Falso
-luces_encendidas  =  no  es_día
+luces_encendidas  =  no_es_día
 
-imprimir ( "¿Durante el día?" )
+imprimir ("¿Durante el día?" )
 imprimir ( es_dia )
 
 imprimir ( "¿Luces encendidas?" )
@@ -98,3 +98,33 @@ print(too_low)
 
 print("heart_rate hight?")
 print(too_hight)
+
+# combinaciones de suma o igual resta 
+
+numero = 30
+numero_2 = 10 
+result = numero + numero_2
+print(result)
+
+#  la edad mayor de alguien
+
+number = 25
+edad = number  >= 18
+print("mayor de edad")
+print(edad)
+
+# usemos comparaciones de string para etiquetar los datos adquiridos a a traves de la encuesta de usuarios de una aplicacion fitness
+# verificamos las repuestas de la encuesta de los usuarios en respecto a la frecuecia e intensidad de la actividad, las etiquetiremos y mostraremos los resultados  
+
+frecuencia = "una vez la semana" 
+intensidad =  "baja"
+
+activo = frecuencia == "diaria"
+
+print("el usuario es activo?")
+print(activo)
+
+intenso = intensidad == "alta"
+print("el usuario es intenso?")
+print(intenso)
+
