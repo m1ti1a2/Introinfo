@@ -13,7 +13,8 @@ efectivo  =  10.5
 
 #Bool
 
-activo  =  Verdadero
+activo  =  True
+
 
 # Comparaciones de las variables
 # Como verificar si el PIN ingresado por un usuario coincide con su PIN guardado
@@ -23,68 +24,67 @@ pin_esperado  =  5448
 
 resultado  =  pin_entrado  ==  pin_esperado
 
-imprimir ( resultado )
+print ( resultado )
 
 # Comparaciones con desigualdad. Tenemos que usar el operador !=
 
 resultado_1  =  2  !=  2
-imprimir ( resultado_1 )
+print ( resultado_1 )
 
 uno  =  1
-dos  =  2
-imprimir ( "------------------------------" )
-imprimir ( uno  ==  dos )
-imprimir ( uno  ! =  dos )
+dos  =  ( "------------------------------" )
+print ( uno  ==  dos )
+print ( uno  !=  dos )
 
 
 # Vamos a hacer un interruptor de luz inteligente que apague las luces si es de dia y las encienda si es de noche
-imprimir ( "------------------------------" )
-es_dia  =  Falso
-luces_encendidas  =  no_es_día
+print ( "------------------------------" )
+es_dia  =  False
+luces_encendidas  =  True 
 
-imprimir ("¿Durante el día?" )
-imprimir ( es_dia )
+print ("¿Durante el día?" )
+print ( es_dia )
 
-imprimir ( "¿Luces encendidas?" )
-imprimir ( luces_encendidas )
+print ( "¿Luces encendidas?" )
+print ( luces_encendidas )
 
 # Con las comparaciones vamos a hacer un código que rastree los datos de ventas de una tienda de pantalones
-imprimir ( "------------------------------" )
+print ( "------------------------------" )
 
 existencias  =  600
 vaqueros_vendidos  =  500
 objetivo  =  500
 
-target_hit  =  jeans_sold  ==  objetivo
+target_hit  =  vaqueros_vendidos  ==  objetivo
 print ( "Alcanzar el objetivo de venta de jeans: " )
-imprimir ( objetivo_hit )
+print ( objetivo )
 
-stock_actual  =  stock  -  vaqueros_vendidos
-en_existencias  =  existencias_actuales  !=  0
-print ( "Jeans en stock: " )
-imprimir ( en_stock )
-imprimir ( stock_actual )
+stock_actual  =  existencias  -  vaqueros_vendidos
+en_existencias  =  existencias  !=  0
+print ( "Jeans  " )
+print ( existencias )
+print ( stock_actual )
 
 
 # Podemos usar comparaciones para verificar si un número es mayor o menor que otro número
 
-imprimir ( "------------------------------" )
+print ( "------------------------------" )
 
-imprimir ( 2  <  200 )
-imprimir ( 2  >  200 )
+print ( 2  <  200 )
+print ( 2  >  200 )
 
-imprimir ( 201  <=  200 )
-imprimir ( 2  >=  200 )
+print ( 201  <=  200 )
+print ( 2  >=  200 )
 
-imprimir ( "------------------------------" )
+print ( "------------------------------" )
 
 # Comparaciones de cadenas de texto
 
 mi_respuesta  =  "bajo"
 solución  =  "bajo"
 
-imprimir ( mi_respuesta  ==  solución )
-imprimir ( mi_respuesta  !=  solución )
+print ( mi_respuesta  ==  solución )
+print ( mi_respuesta  !=  solución )
 
 # practica: paciente que tiene frecuencia cardiaca y que si es preocupante
 
