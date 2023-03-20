@@ -135,3 +135,17 @@ numero_cualquiera = 8438-4857
 print(numero_cualquiera)
 print(f"https://wa.me/5068438-4857")
 
+
+# practica, ejercicio 1, ejercicio 2, ejercicio 3
+
+# ejercicio 1
+
+
+name1= "mati"  
+name2= "Santi"
+name3=  "B"
+input(name1) 
+
+
+
+
