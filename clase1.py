@@ -141,17 +141,34 @@ print(f"https://wa.me/5068438-4857")
 # ejercicio 1
 
 
-Nombres= 3 
+result= "Nombres"
 name3= "santi"  
 name2= "b"
 name1= "Mati"
 print(name2)
 print(name3) 
 print(name1)
-print(Nombres)
-print( "Mati" +  "b" + "santi" )
-input( Nombres ) 
+print( "Mati" +  "b" + "santi" ) 
 
+#practica 2
+hola_mundo = "Matias"
 
+print(hola_mundo)
 
+Horas = 8
+horas_trabajadas=8
+Coste_total= "$700"
+print(Horas)
+print(Coste_total)
 
+KG = 56
+estatura= 1.70
+imc= "tu masa comporal es de 22,24"
+print("KG+M")
+print(imc)
+
+n= 2
+m= 4
+c= 6
+r= n + m 
+print(r)
