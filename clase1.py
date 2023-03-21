@@ -141,10 +141,16 @@ print(f"https://wa.me/5068438-4857")
 # ejercicio 1
 
 
-name1= "mati"  
-name2= "Santi"
-name3=  "B"
-input(name1) 
+Nombres= 3 
+name3= "santi"  
+name2= "b"
+name1= "Mati"
+print(name2)
+print(name3) 
+print(name1)
+print(Nombres)
+print( "Mati" +  "b" + "santi" )
+input( Nombres ) 
 
 
 
