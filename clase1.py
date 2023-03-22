@@ -128,6 +128,12 @@ intenso = intensidad == "alta"
 print("el usuario es intenso?")
 print(intenso)
 
+# los programas inteligentes usan boleanos para tomar decisiones sobre si ejecutar lineas de codigo u omitirlas
+
+if True:
+    print("Hola")
+
+
 # poner un numero de whatsapp para un enlace que nos lleve a una pagina
 
 numero_cualquiera = 8438-4857
