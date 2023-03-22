@@ -136,20 +136,14 @@ print(numero_cualquiera)
 print(f"https://wa.me/5068438-4857")
 
 
-# practica, ejercicio 1, ejercicio 2, ejercicio 3
-
-# ejercicio 1
-
-
-result= "Nombres"
+# investigacion
 name3= "santi"  
 name2= "b"
 name1= "Mati"
-print(name2)
-print(name3) 
-print(name1)
-print( "Mati" +  "b" + "santi" ) 
-
+print= (name1)
+print= (name2)
+print= (name3)
+input(name1 == name2 == name3)
 #practica 2
 hola_mundo = "Matias"
 
