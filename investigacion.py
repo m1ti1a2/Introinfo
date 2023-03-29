@@ -2,7 +2,7 @@
 
 
 
-nombre = input("ingrese su nombre: matias")
+nombre = input("ingrese su nombre:")
 print(nombre)
 
 # ejercicio 2
